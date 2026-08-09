@@ -21,7 +21,10 @@
 ### ⚙️ Capabilities
 * ✅ **Code Generation & Pipeline Architecture**
 * ✅ **Document and Attachment Uploads**
-* ❌ **Deep Thinking** * ❌ **Web Search** * ❌ **Image Generation** * ❌ **Video Generation** * 
+* ❌ **Deep Thinking**
+* ❌ **Web Search**
+* ❌ **Image Generation**
+* ❌ **Video Generation**
 
 ---
 
@@ -30,7 +33,22 @@
 
 ---
 
-## **Model Benchmark Comparision**
+## 📊 Model Benchmark Comparison
 
+### Overall Score (Out of 10)
 
+| Model | Score | Performance Bar |
+| :--- | :---: | :--- |
+| **DeepSeek v3.2** | **7.3** | `██████████████░░░░░░` **73%** |
+| **Sun Codex** *(Ours)* | **5.3** | `███████████░░░░░░░░░` **53%** |
+| **Gemini v2.5 Flash Lite** | **2.7** | `█████░░░░░░░░░░░░░░░` **27%** |
 
+---
+
+### Detailed Category Breakdown
+
+#### 🤖 Agentic Function Calling & Tool Use
+```text
+Sun Codex               ███████████████████░  9.0 / 10
+DeepSeek v3.2           ██████████████████░░  8.5 / 10
+Gemini v2.5 Flash Lite  ████████████░░░░░░░░  6.0 / 10
