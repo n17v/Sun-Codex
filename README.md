@@ -49,7 +49,7 @@
 ### Category Breakdown
 
 #### 🤖 1. Agentic Function Calling & Tool Use
-```text
+```
 Sun Codex               ███████████████████░  9.0 / 10
 DeepSeek v3.2           ██████████████████░░  8.5 / 10
 Gemini v2.5 Flash Lite  ████████████░░░░░░░░  6.0 / 10
@@ -58,7 +58,7 @@ Gemini v2.5 Flash Lite  ████████████░░░░░░�
 
 #### 💻 2. Code Generation & Concurrent Atomics
 
-```text
+```
 DeepSeek v3.2           █████████████████░░░  8.5 / 10
 Sun Codex               ███████████░░░░░░░░░  5.5 / 10
 Gemini v2.5 Flash Lite  ███░░░░░░░░░░░░░░░░░  1.5 / 10
@@ -67,7 +67,7 @@ Gemini v2.5 Flash Lite  ███░░░░░░░░░░░░░░░�
 
 #### 🧠 3. Multi-Variable Constraint Reasoning
 
-```text
+```
 DeepSeek v3.2           ██████████░░░░░░░░░░  5.0 / 10
 Sun Codex               ███░░░░░░░░░░░░░░░░░  1.5 / 10
 Gemini v2.5 Flash Lite  █░░░░░░░░░░░░░░░░░░░  0.5 / 10
