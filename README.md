@@ -1,3 +1,4 @@
+
 <div align="center">
 
 # ☀️ Open Sun - Sun Codex
@@ -35,20 +36,52 @@
 
 ## 📊 Model Benchmark Comparison
 
-### Overall Score (Out of 10)
+### Overall Benchmark Score (Out of 10)
 
 | Model | Score | Performance Bar |
 | :--- | :---: | :--- |
 | **DeepSeek v3.2** | **7.3** | `██████████████░░░░░░` **73%** |
-| **Sun Codex** *(Ours)* | **5.3** | `███████████░░░░░░░░░` **53%** |
+| **Sun Codex** | **5.3** | `███████████░░░░░░░░░` **53%** |
 | **Gemini v2.5 Flash Lite** | **2.7** | `█████░░░░░░░░░░░░░░░` **27%** |
 
 ---
 
-### Detailed Category Breakdown
+### Category Breakdown
 
-#### 🤖 Agentic Function Calling & Tool Use
+#### 🤖 1. Agentic Function Calling & Tool Use
 ```text
 Sun Codex               ███████████████████░  9.0 / 10
 DeepSeek v3.2           ██████████████████░░  8.5 / 10
 Gemini v2.5 Flash Lite  ████████████░░░░░░░░  6.0 / 10
+
+```
+
+#### 💻 2. Code Generation & Concurrent Atomics
+
+```text
+DeepSeek v3.2           █████████████████░░░  8.5 / 10
+Sun Codex               ███████████░░░░░░░░░  5.5 / 10
+Gemini v2.5 Flash Lite  ███░░░░░░░░░░░░░░░░░  1.5 / 10
+
+```
+
+#### 🧠 3. Multi-Variable Constraint Reasoning
+
+```text
+DeepSeek v3.2           ██████████░░░░░░░░░░  5.0 / 10
+Sun Codex               ███░░░░░░░░░░░░░░░░░  1.5 / 10
+Gemini v2.5 Flash Lite  █░░░░░░░░░░░░░░░░░░░  0.5 / 10
+
+```
+
+---
+
+### 🔬 Benchmark Tests Conducted
+
+* **Test 1 (Coding):** Evaluated thread-safe C++20 lock-free atomic rate limiting and memory synchronization choices.
+* **Test 2 (Reasoning):** Evaluated multi-variable GPU task scheduling under hardware failure and dependency constraints.
+* **Test 3 (Agentic):** Evaluated autonomous function calling, JSON schema compliance, and deadlock recovery loops.
+
+```
+
+```
