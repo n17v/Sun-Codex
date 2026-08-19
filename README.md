@@ -15,7 +15,7 @@
 
 ## Model Information
 
-* **Model Status:** 🟢 Active
+* **Model Status:** 🟡 Not Available in Chat Interface.
 * **Knowledge Cutoff:** April 2026
 * **Context Window:** 160K Tokens
 
